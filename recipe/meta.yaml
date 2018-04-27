@@ -1,10 +1,10 @@
 {% set provider= "CloudStack" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "643035c89404e25c31696c1d922244622f0263f159ac0de73bbfa6ff6e484439" %}
+{% set sha256 = "0f782c73736aa81dd8d2bb617609dc1d76a121b7cf244f937765fef005dee262" %}
 {% set sha256_win32 = "6979ca434e85d44d055b4c00e6eca1b00515917138418a2928cd974e81abb792" %}
 {% set sha256_win64 = "fee2eea7f2265d267989ad352db0c9e0a73d7443e4d7dee531b2a56c1d5cbb34" %}
 
