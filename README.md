@@ -14,14 +14,16 @@ Summary: The Terraform CloudStack provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-cloudstack-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-cloudstack-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-cloudstack-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-cloudstack-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-cloudstack-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-cloudstack-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-cloudstack-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-cloudstack-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-cloudstack-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-cloudstack-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-cloudstack-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-cloudstack-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-cloudstack/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-cloudstack/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--cloudstack-green.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-cloudstack.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-cloudstack.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-cloudstack.svg)](https://anaconda.org/conda-forge/terraform-provider-cloudstack) |
 
 Installing terraform-provider-cloudstack
 ========================================
