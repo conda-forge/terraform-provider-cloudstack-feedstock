@@ -1,13 +1,13 @@
 {% set provider = "CloudStack" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" + (".exe" if win else "")%}
 
-{% set sha256 = "0f782c73736aa81dd8d2bb617609dc1d76a121b7cf244f937765fef005dee262" %}
+{% set sha256 = "07f4a6588ba3bb2ca62a16c0ed4f538745d8f2838e5d7888c173c11c8267df0d" %}
 {% set sha256_win64 = "7cbd005e3d24a13318a5eb401f8b63c520c350e6e484dcd0f5f87b0a1af2e19c" %}
 
 package:
@@ -21,7 +21,7 @@ source:
 
 
 build:
-  number: 1002
+  number: 1000
   script:
     - pushd {{ pkg_src }}
     - go build -v -o $GOBIN/{{ x4_plugin }} .  # [unix]
