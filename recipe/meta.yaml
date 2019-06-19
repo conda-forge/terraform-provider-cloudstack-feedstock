@@ -1,13 +1,13 @@
 {% set provider = "CloudStack" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" + (".exe" if win else "")%}
 
-{% set sha256 = "07f4a6588ba3bb2ca62a16c0ed4f538745d8f2838e5d7888c173c11c8267df0d" %}
+{% set sha256 = "cba26589cadd76d6724f13a5599e3c553191a61eda2e8047338ab9913056bacf" %}
 {% set sha256_win64 = "7cbd005e3d24a13318a5eb401f8b63c520c350e6e484dcd0f5f87b0a1af2e19c" %}
 
 package:
