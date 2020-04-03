@@ -56,5 +56,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - @conda-forge/terraform
+    - conda-forge/terraform
     - agcopenhaver
